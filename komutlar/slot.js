@@ -1,7 +1,6 @@
 const Discord = require('discord.js');
-const { Command } = require('discord.js-commando');
 const { stripIndents } = require('common-tags');
-const slots = ['🍇', '🍊', '🍐', '🍒', '🍋'];
+const slots = ['ðŸ‡', 'ðŸŠ', 'ðŸ', 'ðŸ’', 'ðŸ‹'];
 
 exports.run = function(client, message) {
 
@@ -12,7 +11,7 @@ exports.run = function(client, message) {
 	if (slot1 === slot2 && slot1 === slot3) {
 		message.channel.send(stripIndents`
 		${slot1} : ${slot2} : ${slot3}
-		Tebrikler, kazandınız!
+		Tebrikler, kazandÄ±nÄ±z!
 		`);
 	} else {
 		message.channel.send(stripIndents`
@@ -32,6 +31,6 @@ exports.conf = {
 
 exports.help = {
   name: 'slot',
-  description: 'Slot oyunu oynat�r',
+  description: 'Slot oyunu oynatýr',
   usage: 'slot'
 };

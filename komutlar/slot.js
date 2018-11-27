@@ -1,5 +1,4 @@
 const Discord = require('discord.js');
-const { stripIndents } = require('common-tags');
 const slots = ['ðŸ‡', 'ðŸŠ', 'ðŸ', 'ðŸ’', 'ðŸ‹'];
 
 exports.run = function(client, message) {

@@ -6,7 +6,14 @@ const cevaplar = [
     "belki",
     "olabilir",
     "daha sonra tekrar sor",
-    "imkansız"
+    "imkansız",
+	"sanane",
+	"banane",
+	"nadiren",
+	"ney dede mi ?",
+	"tamam",
+	"o iş bende",
+	"yaparım , yaparım sen rahat ol"
 ];
 
 exports.run = function(client, message, args) {
